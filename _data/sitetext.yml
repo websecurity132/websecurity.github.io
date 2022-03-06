@@ -1,0 +1,212 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Bienvenidos a nuestra página!
+    text: Encantados de conocerte!
+    button: Ver Más
+    buttonlink: "#services"
+
+  about:
+    title: "Sobre Nosotros"
+    text: ""
+    section: about
+    body: "Somos una empresa enfocada en la ciberseguridad, en concreto en el Pentesting Web, con un personal muy cualificado para ayudarte a proteger tus páginas web de los ciberdelincuentes. Nuestro objetivo es el de ayudarte a prevenir futuros ataques a tu página web para que tus datos no acaben en las manos equivocadas, para que de esta manera, tú como cliente puedas tener la certeza de que tu empresa esté segura."
+
+  services:
+    title: "Servicios"
+    text: ""
+    section: services
+    list:
+      - title: "Formación a tus empleados"
+        desc: "Formamos a tus empleados en materia de seguridad."
+        icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
+      - title: "Hosting"
+        desc: "Te ofrecemos un hosting con dominio personalizado, correo incluido, y con tráfico ilimitado."
+        icon: fas fa-laptop
+      - title: "Auditoria de tu empresa"
+        desc: "Auditamos tu empresa en busca de fallos de seguridad para que tu puedas estar tranquilo."
+        icon: fas fa-lock
+
+  team:
+    title: "Nuestro equipo"
+    text: ""
+    subtext: Estas son las personas que conforman nuestro equipo principal, personas jovenes, con experiencia en el campo y con ganas de proteger tu negocio.
+    section: team
+    people:
+      - name: "Ivan Pérez"
+        role: "Recursos Humanos"
+        image: assets/img/team/predeterminada.jpeg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Sergio Azori"
+        role: "Blue Team"
+        image: assets/img/team/predeterminada.jpeg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Daniel Quero"
+        role: "Red Team"
+        image: assets/img/team/predeterminada.jpeg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contáctanos"
+    text: ""
+    section: contact
+    name: "Nombre*"
+    name-validation: "Introduce tu nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Introduce tu correo electrónico."
+    phone: "Número de teléfono"
+    phone-validation: "Introduce tu número de teléfono."
+    message: "Mensaje*"
+    message-validat2ion: "Introduce un mensaje."
+    subject: "Contact Form Submission"
+    submit: "Enviar"
+
+  footer:
+    legal: "Política de privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: ¡Bienvenidos a nuestra página!
+    text: ¡Encantados de conocerte!
+    button: Ver más
+    buttonlink: "#servicios"
+
+  services:
+    title: "Servicios"
+    text: ""
+    section: servicios
+    list:
+      - title: "Formación a tus empleados"
+        desc: "Formamos a tus empleados en materia de seguridad."
+        icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
+      - title: "Hosting"
+        desc: "Te ofrecemos un hosting con dominio personalizado, correo incluido, y con tráfico ilimitado."
+        icon: fas fa-laptop
+      - title: "Auditoria de tu empresa"
+        desc: "Auditamos tu empresa en busca de fallos de seguridad para que tu puedas estar tranquilo."
+        icon: fas fa-lock
+
+  about:
+    title: "Sobre nosotros"
+    text: ""
+    body: "Somos una empresa enfocada en la ciberseguridad, en concreto en el Pentesting Web, con un personal muy cualificado para ayudarte a proteger tus páginas web de los ciberdelincuentes. Nuestro objetivo es el de ayudarte a prevenir futuros ataques a tu página web para que tus datos no acaben en las manos equivocadas, para que de esta manera, tú como cliente puedas tener la certeza de que tu empresa esté segura."
+    section: nosotros
+
+  team:
+    title: "Nuestro equipo"
+    text: ""
+    subtext: Estas son las personas que conforman nuestro equipo principal, personas jovenes, con experiencia en el campo y con ganas de proteger tu negocio.
+    section: equipo
+    people:
+      - name: "Iván Pérez"
+        role: "Recursos Humanos"
+        image: assets/img/team/predeterminada.jpeg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Sergio Azori"
+        role: "Blue Team"
+        image: assets/img/team/predeterminada.jpeg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Daniel Quero"
+        role: "Red Team"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contáctanos"
+    text: ""
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Introduce tu nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Introduce tu correo electrónico."
+    phone: "Número de teléfono*"
+    phone-validation: "Introduce tu número de teléfono."
+    message: "Mensaje*"
+    message-validation: "Introduce un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
